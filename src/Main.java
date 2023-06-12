@@ -21,10 +21,12 @@ public class Main {
         for (int t = 1904; t <= 2096; t = t + 4) {System.out.println(t + " Год является високосным");}
 
         //Задание номер 6
-        for (int c = 7; c <= 98; c = c + 7) {System.out.println(c);}
+        for (int c = 7; c <= 98; c = c + 7) {System.out.print(c);}
+        System.out.println();
 
         //Задание номер 7
-        for (int y = 1; y <= 512; y = y * 2) {System.out.println(y);}
+        for (int y = 1; y <= 512; y = y * 2) {System.out.print(y+ " ");}
+        System.out.println();
 
         //Задание номер 8
         int savings = 29000;
@@ -42,7 +44,7 @@ public class Main {
             System.out.println("Месяц " + m1 + ", cумма накоплений равна " + total1+ " рублей" );}
 
         //Задание номер 10
-        int result = 0;
+        int result;
         for (int ch= 1; ch <= 10; ch++) {
             result = 2 * ch;
             System.out.println(" 2 x " + ch + " = " +result);}
