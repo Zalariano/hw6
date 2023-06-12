@@ -21,7 +21,7 @@ public class Main {
         for (int t = 1904; t <= 2096; t = t + 4) {System.out.println(t + " Год является високосным");}
 
         //Задание номер 6
-        for (int с = 7; с <= 98; с = с + 7) {System.out.println(с);}
+        for (int c = 7; c <= 98; c = c + 7) {System.out.println(c);}
 
         //Задание номер 7
         for (int y = 1; y <= 512; y = y * 2) {System.out.println(y);}
