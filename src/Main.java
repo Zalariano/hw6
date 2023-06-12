@@ -41,5 +41,11 @@ public class Main {
             total1 = total1 + savings1;
             System.out.println("Месяц " + m1 + ", cумма накоплений равна " + total1+ " рублей" );}
 
+        //Задание номер 10
+        int result = 0;
+        for (int ch= 1; ch <= 10; ch++) {
+            result = 2 * ch;
+            System.out.println(" 2 x " + ch + " = " +result);}
+
     }
 }
